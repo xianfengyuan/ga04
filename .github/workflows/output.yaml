@@ -1,8 +1,5 @@
 name: output
-on:
-  workflow_dispatch
-  issues:
-    types: [opened, edited, milestoned]
+on: [workflow_dispatch, issues]
 jobs:
   info:
     runs-on: ubuntu-latest
